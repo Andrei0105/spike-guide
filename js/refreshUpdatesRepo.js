@@ -24,7 +24,7 @@ client.get('https://api.github.com/repos/LoopKit/Loop/commits/dev', function(res
     $(".dev").append(date.toLocaleDateString('en-EN', options));
 });
 
-client.get('https://api.github.com/repos/cyoung1024/Loop/commits/dev-spike', function(response) {
+client.get('https://api.github.com/repos/Andrei0105/Loop/commits/dev-spike', function(response) {
     var obj = JSON.parse(response); 
     var dateString = obj["commit"]["author"]["date"];
     var date = new Date(Date.parse(dateString));
@@ -46,7 +46,7 @@ client.get('https://api.github.com/repos/LoopKit/Loop/commits/master', function(
 	
 });
 
-client.get('https://api.github.com/repos/cyoung1024/Loop/commits/spike-master', function(response) {
+client.get('https://api.github.com/repos/Andrei0105/Loop/commits/spike-master', function(response) {
     var obj = JSON.parse(response); 
     var dateString = obj["commit"]["author"]["date"];
     var date = new Date(Date.parse(dateString));
@@ -54,5 +54,27 @@ client.get('https://api.github.com/repos/cyoung1024/Loop/commits/spike-master', 
     minute:'2-digit'};
     //$(".spike-master").append(date.toLocaleDateString('fr-FR', options));
     $(".spike-master").append(date.toLocaleDateString('en-EN', options));
+	
+});
+
+client.get('https://api.github.com/repos/LoopKit/Loop/commits/automatic-bolus', function(response) {
+    var obj = JSON.parse(response); 
+    var dateString = obj["commit"]["author"]["date"];
+    var date = new Date(Date.parse(dateString));
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit',
+    minute:'2-digit'};
+    //$(".master").append(date.toLocaleDateString('fr-FR', options));
+    $(".autobolus").append(date.toLocaleDateString('en-EN', options));
+	
+});
+
+client.get('https://api.github.com/repos/Andrei0105/Loop/commits/spike-autobolus', function(response) {
+    var obj = JSON.parse(response); 
+    var dateString = obj["commit"]["author"]["date"];
+    var date = new Date(Date.parse(dateString));
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit',
+    minute:'2-digit'};
+    //$(".spike-master").append(date.toLocaleDateString('fr-FR', options));
+    $(".spike-autobolus").append(date.toLocaleDateString('en-EN', options));
 	
 });
