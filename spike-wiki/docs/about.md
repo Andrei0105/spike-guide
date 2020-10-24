@@ -3,7 +3,7 @@
 Unless stated otherwise, all code done here is not by me, but by the amazing Loop community. I "specialise" in putting puzzle pieces together, and in mucking around in Terminal because, well, Terminal is fun. My branches are nothing more than the work of others, combined with the work of others.
 
 ### [Spike-master](https://github.com/Andrei0105/loop/tree/spike-master)
-Loop master 2.2.1 with Spike client integrated.
+Loop master with Spike client integrated.
 <div>
 <p> <b> Last master update : </b> <span class="master"> </span> </br>
 <b> Last spike-master update : </b> <span class="spike-master"> </span> </br>
@@ -12,9 +12,22 @@ Loop master 2.2.1 with Spike client integrated.
 
 ### [Dev-spike](https://github.com/Andrei0105/loop/tree/dev-spike)
 Loop dev with Spike client integrated.
+
+!!! warning
+    Updates to dev-spike are currently paused due to major code changes to Loop dev.
+    Please use spike-master or spike-autobolus for now.
+    
 <div>
 <p> <b> Last dev update : </b> <span class="dev"> </span> </br>
 <b> Last dev-spike update : </b> <span class="dev-spike"> </span> </br>
+</p>
+</div>
+
+### [Spike-autobolus](https://github.com/Andrei0105/loop/tree/spike-autobolus)
+Loop automatic-bolus with Spike client integrated.
+<div>
+<p> <b> Last automatic-bolus update : </b> <span class="autobolus"> </span> </br>
+<b> Last spike-autobolus update : </b> <span class="spike-autobolus"> </span> </br>
 </p>
 </div>
 

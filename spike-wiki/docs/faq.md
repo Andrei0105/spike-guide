@@ -9,10 +9,14 @@ That’s a very personal decision that only you can make. A Spike branch is the 
 ## Does the Spike branch have...
 Probably. Updates to the Spike branches will usually happen within one week of an update to an official branch. See below for the corresponding update dates, and remember that you can always check if I’ve merged a specific Loop update by looking at the commit history in my repo.
 
+!!! warning
+    Updates to dev-spike are currently paused due to major code changes to Loop dev.
+    Please use spike-master or spike-autobolus for now.
+    
 <div>
 <p> <b> Last master update : </b> <span class="master"> </span> </br>
 <b> Last spike-master update : </b> <span class="spike-master"> </span> </br>
-</p>
+</p>   
 <p> <b> Last dev update : </b> <span class="dev"> </span> </br>
 <b> Last dev-spike update : </b> <span class="dev-spike"> </span> </br>
 </p>
